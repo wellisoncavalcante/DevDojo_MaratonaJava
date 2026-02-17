@@ -1,0 +1,20 @@
+package introducao;
+
+public class Aula07Arrays02 {
+    public static void main(String[] args) {
+        // byte, short, int, long, float e double = 0
+        // char '\u0000' ' '
+        // boolean false
+        // String null
+
+        String[] nomes = new String[4];
+        nomes[0] = "Wellison";
+        nomes[1] = "Mirelly";
+        nomes[2] = "Sara";
+        nomes[3] = "Luna";
+
+        for (int i = 0; i < nomes.length; i++) {
+            System.out.println(nomes[i]);
+        }
+    }
+}
